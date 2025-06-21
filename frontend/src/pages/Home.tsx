@@ -37,11 +37,8 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
               <Link to="/products" className="btn-secondary">
                 Shop Now
-                <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
-              <button className="bg-white text-primary-600 hover:bg-gray-50 px-8 py-3 rounded-lg font-medium transition-all duration-200">
-                Learn More
-              </button>
+            
             </div>
           </div>
         </div>
@@ -132,31 +129,13 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link to="/products" className="btn-primary">
               View All Products
-              <ArrowRight className="ml-2 w-5 h-5" />
+
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="py-16 bg-primary-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-          <p className="text-primary-100 mb-8">
-            Subscribe to our newsletter for the latest deals and updates
-          </p>
-          <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:ring-2 focus:ring-primary-300 focus:outline-none"
-            />
-            <button className="bg-white text-primary-600 hover:bg-gray-50 px-8 py-3 rounded-lg font-medium transition-colors">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 }
